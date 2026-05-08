@@ -1,6 +1,7 @@
 # Python Virtual Environment Guide
 
 1. Create the virtual environment
+
 Run **one** of the following in the project folder:
 
 ```bash
