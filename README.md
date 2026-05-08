@@ -1,6 +1,17 @@
 # Python Virtual Environments Guide
 
-First set up the virtual environment:
+1. Create the virtual environment
+Run **one** of the following in the project folder:
+
+```bash
+python -m venv venv
+# or
+python3 -m venv venv
+```
+
+---
+
+2. Activate the virtual environment
 
 **Windows (PowerShell)**
 ```bash
@@ -21,7 +32,7 @@ When activated, you should see `(venv)` in your terminal.
 
 ---
 
-Then, install any requirements (if applicable):
+3. Install dependencies (if applicable to your project)
 
 ```bash
 pip install -r requirements.txt
